@@ -2,7 +2,7 @@ main{
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-rows: 100px 50px 650px 100px ;
+    grid-template-rows: 100px 50px 650px 70px ;
     grid-template-columns: 100%;
 }
 header{
@@ -45,26 +45,26 @@ div.central>p{
 div.contacto>p{
     color: #42c920;
     position: absolute;
-    left:1600px ;
-    top: 600px;
+    left:80% ;
+    top: 95%;
     font-size: 20px;
 }
 
 div>ul{
     color: #42c920;
     position: absolute;
-    top: 635px;
-    left: 1600px;
+    top: 100%;
+    left: 80%;
 }
 li{
     margin-bottom: 10px;
 }
 div.pdf{
     width: 60%;
-    height: 80%;
+    height: 100%;
     position: absolute;
-    right: 600px;
-    top: 300px;
+    right: 30%;
+    top: 60%;
 }
 footer{
     grid-row: 4;
